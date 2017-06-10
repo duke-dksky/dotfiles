@@ -1,0 +1,5 @@
+autocmd FileType apache setlocal commentstring=#\ %s
+autocmd FileType spec   setlocal commentstring=#\ %s
+
+hi Normal ctermbg=none
+hi NonText ctermbg=none

@@ -1,0 +1,4 @@
+# local settings of zshrc
+export PATH=$PATH:/home/wuxu/.config/composer/vendor/bin:/home/wuxu/bin/bashes
+
+export PATH=$PATH:$GOPATH/bin
