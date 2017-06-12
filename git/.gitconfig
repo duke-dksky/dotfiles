@@ -1,0 +1,40 @@
+[user]
+	name = wuxu92
+	email = wuxu92@qq.com
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
+	llg = log --color --graph --format=format:'%C(bold blue)%h%C(reset): %C(bold green)(%ad)%C(reset) %C(bold yellow)<%an>%C(reset)%C(bold red)%d%C(reset)%n'' %C(reset)%s%C(reset)' --date=local --abbrev-commit 
+
+	ls = ls --show-control-chars --color=auto
+	go = "! bash -c \"git pull && git add .; if [ \\\"\\\" == \\\"\\\" ]; then git commit -a; else git commit -am \\\\¡\\\\¡; fi; git push origin master\""
+	ci= commit
+	co = checkout
+	br = branch
+	st = status
+	list = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	undo = reset --hard
+	llog = log --date=local
+	changes = diff --name-status -r
+	diffst = diff --stat -r
+	ignore = !git ls-files -v | grep "^[[:lower:]]"
+	conf	= diff --name-only --diff-filter=U
+[http]
+# proxy = 10.4.20.2:3128
+# proxy = 127.0.0.1:1080
+
+[https]
+# proxy = 127.0.0.1:1080
+# proxy = 10.4.20.2:3128
+
+[push]
+	default = simple
+[core]
+	quotepath = false
+	safecrlf = false
+    # gitProxy = socks5://127.0.0.1
+[code]
+	safecrlf = false
+[http]
+	# proxy = socks5://127.0.0.1:1080
+[https]
+	# proxy = socks5://127.0.0.1:1080
