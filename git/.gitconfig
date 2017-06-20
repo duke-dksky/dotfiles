@@ -19,22 +19,15 @@
 	ignore = !git ls-files -v | grep "^[[:lower:]]"
 	conf	= diff --name-only --diff-filter=U
 [http]
-# proxy = 10.4.20.2:3128
 # proxy = 127.0.0.1:1080
 
 [https]
 # proxy = 127.0.0.1:1080
-# proxy = 10.4.20.2:3128
 
 [push]
 	default = simple
 [core]
 	quotepath = false
 	safecrlf = false
+    fileMode = false    # no file mode track
     # gitProxy = socks5://127.0.0.1
-[code]
-	safecrlf = false
-[http]
-	# proxy = socks5://127.0.0.1:1080
-[https]
-	# proxy = socks5://127.0.0.1:1080
