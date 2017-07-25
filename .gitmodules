@@ -4,12 +4,15 @@
 [submodule "vim/.vim/bundle/emmet-vim"]
 	path = vim/.vim/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
-[submodule "vim/vimrc"]
-	path = vim/vimrc
-	url = https://github.com/amix/vimrc
 [submodule "zsh/oh-my-zsh"]
 	path = zsh/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule "vim/.vim/bundle/vim-surround"]
 	path = vim/.vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/.vim/bundle/vim-commentary"]
+	path = vim/.vim/bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "vim/.vim_runtime"]
+	path = vim/.vim_runtime
+	url = https://github.com/amix/vimrc.git
