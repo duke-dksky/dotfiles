@@ -5,13 +5,14 @@ alias tw="tmux new-session -A -s working"
 alias ss6="sss 6"
 alias suspend="sudo systemctl suspend"
 alias mpc="ncmpcpp"
+alias tial="tail"
 
 export GOPATH=~/goproj
 
 # variables for fcitx
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx
+# export XMODIFIERS=@im=fcitx
 # export XIM=fcitx
 # export XIM_PROGRAM=fcitx
 
