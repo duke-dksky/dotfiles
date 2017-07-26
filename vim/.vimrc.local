@@ -3,3 +3,6 @@ autocmd FileType spec   setlocal commentstring=#\ %s
 
 hi Normal ctermbg=none
 hi NonText ctermbg=none
+
+" no fold by default
+set foldlevel=99
