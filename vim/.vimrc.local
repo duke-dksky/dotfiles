@@ -6,3 +6,7 @@ hi NonText ctermbg=none
 
 " no fold by default
 set foldlevel=99
+
+set expandtab
+set tabstop=4
+set shiftwidth=4
