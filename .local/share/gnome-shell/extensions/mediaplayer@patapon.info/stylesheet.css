@@ -1,0 +1,65 @@
+.mediaplayer-menu {
+  width: 24em;
+}
+
+.controls {
+    padding-top: 0em;
+    spacing: 0.25em;
+    padding-bottom: 0em;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.indicator-item {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.secondary-indicator {
+    icon-size: 1em;
+}
+
+.track-box {
+    padding-top: 0em;
+    spacing: 0.5em;
+    padding-bottom: 0em;
+}
+
+.track-info-artist {
+  font-weight: bold;
+}
+
+.tracklist-artist {
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.track-info-title {
+  font-size: small;
+}
+
+.track-info-album {
+  font-size: x-small;
+}
+
+.track-rating {
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.star-icon {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.0625em;
+    padding-right: 0.0625em;
+}
+
+.star-box {
+    padding-top: 0em;
+    spacing: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
